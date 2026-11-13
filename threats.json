@@ -1,7 +1,27 @@
 {
-  "updated_at": "2026-11-13T13:29:58.282015+00:00",
+  "updated_at": "2026-11-13T19:15:59.669626+00:00",
   "source": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
   "items": [
+    {
+      "cve": "CVE-2026-114713",
+      "vendor": "UnrealIRCd",
+      "product": "UnrealIRCd",
+      "name": "UnrealIRCd Improper Neutralization of Delimiters Vulnerability",
+      "date_added": "2026-11-13",
+      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "due_date": "2026-11-16",
+      "notes": "https://forums.unrealircd.org/viewtopic.php?t=9487 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-114713"
+    },
+    {
+      "cve": "CVE-2026-123039",
+      "vendor": "Check Point",
+      "product": "Multiple Products",
+      "name": "Check Point Multiple Products Incorrect Permission Assignment for Critical Resource Vulnerability",
+      "date_added": "2026-11-13",
+      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "due_date": "2026-11-16",
+      "notes": "https://support.checkpoint.com/results/sk/sk1000362 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-123039"
+    },
     {
       "cve": "CVE-2026-124194",
       "vendor": "Microsoft",
@@ -2481,26 +2501,6 @@
       "action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
       "due_date": "2026-03-26",
       "notes": "https://support.apple.com/en-us/HT213938 ; https://support.apple.com/kb/HT213938 ; https://nvd.nist.gov/vuln/detail/CVE-2023-41974"
-    },
-    {
-      "cve": "CVE-2026-22719",
-      "vendor": "Broadcom",
-      "product": "VMware Aria Operations",
-      "name": "Broadcom VMware Aria Operations Command Injection Vulnerability",
-      "date_added": "2026-03-03",
-      "action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-      "due_date": "2026-03-24",
-      "notes": "https://support.broadcom.com/web/ecx/support-content-notification/-/external/content/SecurityAdvisories/0/36947 ; https://knowledge.broadcom.com/external/article/430349 ; https://nvd.nist.gov/vuln/detail/CVE-2026-22719"
-    },
-    {
-      "cve": "CVE-2026-21385",
-      "vendor": "Qualcomm",
-      "product": "Multiple Chipsets",
-      "name": "Qualcomm Multiple Chipsets Memory Corruption Vulnerability",
-      "date_added": "2026-03-03",
-      "action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-      "due_date": "2026-03-24",
-      "notes": "Please check with specific vendors (OEMs,) for information on patching status. For more information, please see: https://source.android.com/docs/security/bulletin/2026/2026-03-01 ; https://nvd.nist.gov/vuln/detail/CVE-2026-21385"
     }
   ]
 }
