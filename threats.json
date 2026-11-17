@@ -1,7 +1,17 @@
 {
-  "updated_at": "2026-11-17T13:33:00.886438+00:00",
+  "updated_at": "2026-11-17T19:24:06.249262+00:00",
   "source": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
   "items": [
+    {
+      "cve": "CVE-2026-115731",
+      "vendor": "Perforce",
+      "product": "Puppet Enterprise",
+      "name": "Perforce Puppet Enterprise Deserialization of Untrusted Data Vulnerability",
+      "date_added": "2026-11-17",
+      "action": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA\u2019s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA\u2019s \u201cForensics Triage Requirements\u201d (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+      "due_date": "2026-12-01",
+      "notes": "https://portal.perforce.com/s/cve/a91Qi000003IaHpIAK/report-deserialization-code-execution ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-115731"
+    },
     {
       "cve": "CVE-2026-114713",
       "vendor": "UnrealIRCd",
@@ -1514,7 +1524,7 @@
     },
     {
       "cve": "CVE-2026-48558",
-      "vendor": "SimpleHelp ",
+      "vendor": "SimpleHelp",
       "product": "SimpleHelp",
       "name": "SimpleHelp Authentication Bypass Vulnerability",
       "date_added": "2026-06-29",
@@ -2004,7 +2014,7 @@
     },
     {
       "cve": "CVE-2024-57728",
-      "vendor": "SimpleHelp ",
+      "vendor": "SimpleHelp",
       "product": "SimpleHelp",
       "name": "SimpleHelp Path Traversal Vulnerability",
       "date_added": "2026-04-24",
@@ -2014,7 +2024,7 @@
     },
     {
       "cve": "CVE-2024-57726",
-      "vendor": "SimpleHelp ",
+      "vendor": "SimpleHelp",
       "product": "SimpleHelp",
       "name": "SimpleHelp Missing Authorization Vulnerability",
       "date_added": "2026-04-24",
@@ -2491,16 +2501,6 @@
       "action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
       "due_date": "2026-03-26",
       "notes": "https://support.apple.com/en-us/HT212975 ; https://support.apple.com/en-us/HT212976 ; https://support.apple.com/en-us/HT212978 ; https://support.apple.com/en-us/HT212980 ; https://support.apple.com/en-us/HT212982 ; https://nvd.nist.gov/vuln/detail/CVE-2021-30952"
-    },
-    {
-      "cve": "CVE-2023-41974",
-      "vendor": "Apple",
-      "product": "iOS and iPadOS",
-      "name": "Apple iOS and iPadOS Use-After-Free Vulnerability",
-      "date_added": "2026-03-05",
-      "action": "Apply mitigations per vendor instructions, follow applicable BOD 22-01 guidance for cloud services, or discontinue use of the product if mitigations are unavailable.",
-      "due_date": "2026-03-26",
-      "notes": "https://support.apple.com/en-us/HT213938 ; https://support.apple.com/kb/HT213938 ; https://nvd.nist.gov/vuln/detail/CVE-2023-41974"
     }
   ]
 }
